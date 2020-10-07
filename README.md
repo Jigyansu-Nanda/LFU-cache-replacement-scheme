@@ -6,7 +6,7 @@ LFU (Least Frequently Used) is a cache replacement scheme, that prioritizes cach
       - insert item into cache memory block
   - **if cache is full**:
       - The item that is least-times accessed, gets evicted
-      - When more than one item from the cache, share the same minimum frequency of usage, then the one, that is least recently used, gets evicted.
+      - When more than one item from the cache, share the same minimum frequency of usage, then the one, that is **Least Recently Used**, gets evicted.
       
  ![LFU cache replacement scheme](https://github.com/Jigyansu-Nanda/LFU-cache-replacement-scheme/blob/master/lfu1.png)
 
