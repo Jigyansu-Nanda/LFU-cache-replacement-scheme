@@ -7,9 +7,11 @@ LFU (Least Frequently Used) is a cache replacement scheme, that prioritizes cach
   - **if cache is full**:
       - The item that is least-times accessed, gets evicted
       - When more than one item from the cache, share the same minimum frequency of usage, then the one, that is least recently used, gets evicted.
+      
+ ![LFU cache replacement scheme](https://github.com/Jigyansu-Nanda/LFU-cache-replacement-scheme/blob/master/lfu1.png)
 
 # Implementation
-```
+```java
 class LFUCache {
 
     class Node {
